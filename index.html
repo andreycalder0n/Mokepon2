@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mokepon</title>
+    <script defer src="./js/mokepon.js"></script>
 </head>
 <body>
     <h1>Mokepon</h1>
@@ -25,7 +26,7 @@
         <label for="pydos">Pydos</label>
         <input type="radio" name="mokepon" id="pydos" />
         
-        <button>Select</button>
+        <button id="player-mokepon-button">Select</button>
     </section>
     
     <section id="select-attack">
@@ -33,9 +34,9 @@
         <p>Your mokepon has <span>3</span> lives</p>
         <p>Enemy mokepon has <span>3</span> lives</p>
         <div>
-            <button>Fire 🔥</button>
-            <button>Water 💧</button>
-            <button>Grass 🌱</button>
+            <button id="fire-button">Fire 🔥</button>
+            <button id="water-button">Water 💧</button>
+            <button id="grass-button">Grass 🌱</button>
         </div>
     </section>
 
@@ -44,7 +45,7 @@
     </section>
 
     <section id="reset">
-        <button>Reset</button>
+        <button id="reset-button">Reset</button>
     </section>
 </body>
 </html>
